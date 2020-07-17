@@ -4,7 +4,7 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
- .row {
+ .newrow {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -22,7 +22,7 @@
   -ms-flex-pack: center !important;
   justify-content: center !important; }
 
- .container {
+ .newcontainer {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -30,16 +30,16 @@
   margin-left: auto; }
 
   @media (min-width: 576px) {
-    .container {
+    .newcontainer {
       max-width: 540px; } }
   @media (min-width: 768px) {
-    .container {
+    .newcontainer {
       max-width: 720px; } }
   @media (min-width: 992px) {
-    .container {
+    .newcontainer {
       max-width: 960px; } }
   @media (min-width: 1200px) {
-    .container {
+    .newcontainer {
       max-width: 1140px; } }
 
 .text-center {
